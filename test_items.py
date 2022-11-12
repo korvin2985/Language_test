@@ -3,7 +3,7 @@ import time
 link = "http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/"
 
 
-def test_1(browser):
+def test_add_button_testing(browser):
     browser.implicitly_wait(10)
     browser.get(link)
 
